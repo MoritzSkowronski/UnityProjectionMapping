@@ -11,11 +11,11 @@ namespace Assets
         public double Y;
         public double Z;
 
-        public Rotation(double x, double y, double z)
+        public Rotation (double x, double y, double z)
         {
-           X = x;
-           Y = y;
-           Z = z;
+            X = x;
+            Y = y;
+            Z = z;
         }
     }
 }

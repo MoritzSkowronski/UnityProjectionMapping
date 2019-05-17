@@ -9,15 +9,13 @@ namespace Assets
 {
     public static class SerializeExtensions
     {
-        public static string SerializeObject<T>(this T toSerialize)
+        public static string SerializeObject<T> (this T toSerialize)
         {
-            using (StringWriter textWriter = new StringWriter())
-            {
-                XmlSerializer xmlSerializer = new XmlSerializer(toSerialize.GetType());
-                xmlSerializer.Serialize(textWriter, toSerialize);
-                return textWriter.ToString();
+            using (StringWriter textWriter = new StringWriter ()) {
+                XmlSerializer xmlSerializer = new XmlSerializer (toSerialize.GetType ());
+                xmlSerializer.Serialize (textWriter, toSerialize);
+                return textWriter.ToString ();
             }
         }
-
     }
 }

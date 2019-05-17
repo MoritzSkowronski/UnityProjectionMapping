@@ -13,23 +13,25 @@ namespace Assets
         public double Y;
         public double Z;
 
-        public Vector3 Vector3
-        {
-            get
-            {
-                return new Vector3((float)X, (float)Y, (float)Z);
+        public Vector3 Vector3 {
+            get {
+                return new Vector3 ((float)X, (float)Y, (float)Z);
             }
         }
 
-        public SerializableVector3() { }
-        public SerializableVector3(Vector3 vector)
+        public SerializableVector3 ()
+        {
+        }
+
+        public SerializableVector3 (Vector3 vector)
         {
             double val;
-            X = double.TryParse(vector.x.ToString(), out val) ? val : 0.0;
-            Y = double.TryParse(vector.y.ToString(), out val) ? val : 0.0;
-            Z = double.TryParse(vector.z.ToString(), out val) ? val : 0.0;
+            X = double.TryParse (vector.x.ToString (), out val) ? val : 0.0;
+            Y = double.TryParse (vector.y.ToString (), out val) ? val : 0.0;
+            Z = double.TryParse (vector.z.ToString (), out val) ? val : 0.0;
         }
-        public SerializableVector3(double x, double y, double z)
+
+        public SerializableVector3 (double x, double y, double z)
         {
             X = x;
             Y = y;
