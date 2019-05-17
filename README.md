@@ -1,17 +1,16 @@
 # UnityProjectionMapping with OpenCVForUnity
-====================
 
 An example of projection mapping in Unity3D using OpenCVForUnity as an OpenCV warper.
 
 Usage
 -----
-See base [repository page](https://github.com/andrewmacquarrie/UnityProjectionMapping).
+See [base repository page](https://github.com/andrewmacquarrie/UnityProjectionMapping).
 
 Environment
 -----
 - Unity >= 5.6.6f2+
 - Scripting backend MONO / IL2CPP
-[OpenCVForUnity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR)  
+- [OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR) 2.3.4+ 
 
 ## Setup
 1. Import OpenCVForUnity.
