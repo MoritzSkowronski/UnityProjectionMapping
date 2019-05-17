@@ -1,6 +1,6 @@
 # UnityProjectionMapping with OpenCVForUnity
 
-An example of projection mapping in Unity3D using OpenCVForUnity as an OpenCV warper.
+An example of projection mapping in Unity3D using OpenCVForUnity as an OpenCV wrapper.
 
 Usage
 -----
