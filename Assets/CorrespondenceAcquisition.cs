@@ -148,6 +148,7 @@ public class CorrespondenceAcquisition : MonoBehaviour
     {
         GameObject sphere = GameObject.CreatePrimitive (PrimitiveType.Sphere);
         sphere.transform.position = point;
+        sphere.transform.localScale *= .01f;
         sphere.tag = CALIB_SPHERE_TAG;
     }
 
